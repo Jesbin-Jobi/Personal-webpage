@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact Form</title>
+    <link rel="stylesheet" href="contact.css" />
+    <script
+      src="https://kit.fontawesome.com/64d58efce2.js"
+      crossorigin="anonymous"
+    ></script>
+  </head> z
+  <body>
+    <div class="container">
+      <span class="big-circle"></span>
+      <img src="shape.png" class="square" alt="" />
+      <div class="form">
+        <div class="contact-info">
+          <h3 class="title">Let's get in touch</h3>
+          <p class="text">
+           
+          </p>
+
+          <div class="info">
+            <div class="information">
+              <img src="location.png" class="icon" alt="" />
+              <a href="https://www.google.com/maps/place/24+Acre+Heights+Crescent,+Scarborough,+ON+M1H+2N9/@43.7666745,-79.2504357,385m/data=!3m1!1e3!4m6!3m5!1s0x89d4d1b3b161a765:0xa2c41864b6c8d7e0!8m2!3d43.7666153!4d-79.2488813!16s%2Fg%2F11c4rv2z6_?entry=ttu">24 Acre Heights</a>
+            </div>
+            <div class="information">
+              <img src="email.png" class="icon" alt="" />
+              <a href="contact.html">jesbinjobi@gmail.com</a>
+            </div>
+            <div class="information">
+              <img src="phone.png" class="icon" alt="" />
+              <p>437-661-7549</p>
+            </div>
+          </div>
+
+          <div class="social-media">
+            <p>Connect with me :</p>
+            <div class="social-icons">
+              <a href="https://www.facebook.com/Jesviiii?mibextid=ZbWKwL ">
+                <i class="fab fa-facebook-f"></i>
+              </a>
+              <a href="#">
+                <i class="fab fa-github"></i>
+              </a>
+              <a href="https://www.instagram.com/jesbin.___">
+                <i class="fab fa-instagram"></i>
+              </a>
+              <a href="https://www.linkedin.com/in/jesbin-jobi-52b449282/">
+                <i class="fab fa-linkedin-in"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="contact-form">
+          <span class="circle one"></span>
+          <span class="circle two"></span>
+
+          <form action="https://api.web3forms.com/submit" method="POST"class="contact-left">
+            <input type="hidden" name="access_key" value="e32a45c8-3471-49c8-803e-74845bb8c274">
+            <h3 class="title">Contact us</h3>
+            <div class="input-container">
+              <input type="text" name="name" class="input" required/>
+              <label for="">Username </label>
+              <span>Username</span>
+            </div>
+            <div class="input-container">
+              <input type="email" name="email" class="input" required/>
+              <label for="">Email</label>
+              <span>Email</span>
+            </div>
+            <div class="input-container">
+              <input type="tel" name="phone" class="input" />
+              <label for="">Phone</label>
+              <span>Phone</span>
+            </div>
+            <div class="input-container textarea">
+              <textarea name="message" class="input" required></textarea>
+              <label for="">Message</label>
+              <span>Message</span>
+            </div>
+            <input type="submit" value="Send" class="btn" />
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <script src="app.js"></script>
+  </body>
+</html>

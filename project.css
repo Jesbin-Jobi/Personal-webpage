@@ -1,0 +1,101 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800&display=swap");
+
+/* Basic styling for demonstration purposes */
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #081b29;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 70px;
+    color: #00ABF0;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+h1:hover{
+    color:white ;
+
+}
+
+
+
+.shop-section{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: #081b29
+
+
+}
+
+.box{
+    /*border: 2px solid black;*/
+    height: 400px;
+    width: 23%;
+    background-color: white;
+    padding: 20px 0px 15px;
+    margin-top: 100px;
+    border-radius: 2rem;
+}
+
+.box-img{
+    height: 250px;
+   margin-left: 25px;
+    background: no-repeat;
+    background-size: contain;
+    width: 350px;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    
+}
+.box-img2{
+    height: 250px;
+   margin-left: 40px;
+    background: no-repeat;
+    background-size: contain;
+    width: 350px;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    
+}
+.box-img3{
+    height: 250px;
+    margin-left: 40px;
+     background: no-repeat;
+     background-size: contain;
+     width: 350px;
+     margin-top: 1rem;
+     margin-bottom: 1rem;
+}
+
+
+.box-content{
+    margin-left: 1rem;
+    margin-right: 1rem;
+  
+}
+
+.box h2{
+    margin-left:80px ;
+}
+
+.box h2:hover{
+ color:#00ABF0;
+
+
+}
+
+.box a{
+    color: black;
+    text-decoration: none;
+    margin-left: 50px;
+}
+
+
+.box-content p{
+    margin-bottom: 1rem;
+    color: #007185;
+}
